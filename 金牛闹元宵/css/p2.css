@@ -1,0 +1,56 @@
+.p2 {
+	display: none;
+	opacity: 0;
+	background: url(../img/p2bg.png) no-repeat 0 0 / 100% 100%;
+}
+.p2 .dui {
+	width: 100%;
+	height: 78%;
+	background: url(../img/p2对联.png) no-repeat 0 0 / 100% 100%;
+}
+.p2 .dlR {
+	position: absolute;
+	top: 350px;
+	right: 82px;
+	width: 177px;
+	height: 565px;
+	transform-origin: 47px 4px;
+	background: url(../img/灯笼R.png) no-repeat 0 0 / 100% 100%;
+	animation: dlRo 2s linear infinite alternate;
+}
+.p2 .dlL {
+	position: absolute;
+	top: 117px;
+	left: 88px;
+	width: 160px;
+	height: 510px;
+	transform-origin: 119px 4px;
+	background: url(../img/灯笼L.png) no-repeat 0 0 / 100% 100%;
+	animation: dlRo 2s linear infinite alternate;
+}
+@keyframes dlRo{
+	0%{
+		
+	}
+	100% {
+		transform: rotate(8deg);
+	}
+}
+.btn {
+	position: absolute;
+	bottom: 115px;
+	left: -26%;
+	transform: translateX(-50%);
+	width: 449px;
+	height: 215px;
+	background: url(../img/p2btn.png) no-repeat 0 0 / 100% 100%;
+	animation: btnM 1s linear forwards;
+}
+@keyframes btnM {
+	
+	0% {
+	}
+	100% {
+		left: 50%;
+	}
+}

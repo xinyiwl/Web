@@ -1,0 +1,33 @@
+.ym2{
+	display: none;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/p2bg.png);
+	position: relative;
+	overflow: hidden;
+}
+.ym2 div {
+	margin: 0;
+	padding: 0;
+}
+
+.ym2 .ym2_btn1{
+	position: absolute;
+    top: 37%;
+    left: 21%;
+	width: 423px;
+	height: 130px;
+	background: url(../img/ym2-btn1.png) no-repeat 0 0/100% 100%;
+	z-index: 1;
+    
+}
+.ym2 .ym2_btn2{
+	position: absolute;
+    top: 53%;
+    left: 21%;
+    width: 423px;
+	height: 130px;
+	background: url(../img/ym2-btn2.png) no-repeat 0 0/100% 100%;
+	z-index: 1;
+}

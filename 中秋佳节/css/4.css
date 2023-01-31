@@ -1,0 +1,71 @@
+.ym4{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(../img/p2bg.png);
+	opacity: 0;
+	display: none;
+	/* transform-style: preserve-3d; */
+	perspective: 1000px;
+}
+.ym4 .ym4-btn {
+	position: absolute;
+	bottom: 155px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 307px;
+	height: 99px;
+	background: url(../img/ym4-btn.png) no-repeat 0 0 / 100% 100%;
+}
+.ym4-king {
+	position: absolute;
+	top: 450px;
+	left: 100px;
+	width: 185px;
+	height: 185px;
+	transform: rotateX(20deg);
+	background: url(../img/ym4-king.png) no-repeat 0 0 / 100% 100%;
+	animation: ym4kingR 1.5s linear infinite;
+}
+@keyframes ym4kingR {
+	0%{
+		
+	}
+	80%{
+		transform:rotateX(20deg) rotateY(360deg) ;
+	}
+	100%{
+		transform:rotateX(20deg) rotateY(360deg) ;
+	}
+}
+.ym4-text {
+	position: absolute;
+	top: 630px;
+	left: 150px;
+	width: 539px;
+	font-size: 55px;
+	color: #cd1313;
+}
+.ym4-text p {
+	height: 120px;
+	transform: rotate(320deg);
+}
+.ym4-title {
+	position: absolute;
+	top: -185px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 628px;
+	height: 185px;
+	background: url(../img/ym4-top.png) no-repeat 0 0 / 100% 100%;
+	animation: topM 1s linear forwards;
+}
+
+@keyframes topM {
+	0% {
+		
+	}
+	100% {
+		top: 188px;
+	}
+}

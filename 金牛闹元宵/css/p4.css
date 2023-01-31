@@ -1,0 +1,110 @@
+.p4 {
+	padding: 340px 220px 0;
+	display: none;
+	opacity: 0;
+	background: url(../img/p4bg.png) no-repeat 0 0 / 100% 100%;
+}
+
+.p4 .dllist {
+	display: grid;
+	grid-template-columns: 95px 95px;
+	grid-auto-rows: 256px;
+	grid-column-gap: 115px;
+	grid-row-gap: 10px;
+}
+.p4 .dllist .dl {
+	transform: scale(0.8);
+	background: url(../img/dl1.png) no-repeat 0 0 / 100% 100%;
+	animation: dlSc .8s linear infinite alternate;
+}
+@keyframes dlSc {
+	
+	0% {
+		
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.p4 .dati {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	display: flex;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .4);
+}
+.p4 .dati .item {
+	display: flex;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 673px;
+	height: 733px;
+	background: url(../img/datibg.png) no-repeat 0 0 / 100% 100%;
+}
+.p4 .dati .item:nth-of-type(1) {
+	display: flex;
+}
+.p4 .dati .item h3 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	
+}
+.p4 .dati .item h3 span  {
+	font-size: 18px;
+	font-weight: 400;
+}
+.p4 .dati .item .da {
+	font-size: 22px;
+}
+.p4 .dati .item .da div {
+	margin-bottom: 20px;
+}
+.p4 .dati .item .da input {
+	width: 22px;
+	height: 22px;
+	vertical-align: bottom;
+	
+}
+.p4 .dati .item .btn {
+	position: inherit;
+	transform: none;
+	width: 311px;
+	height: 163px;
+	margin-top: 40px;
+	margin-left: 20px;
+	background: url(../img/提交.png) no-repeat 0 0 / 100% 100%;
+	
+}
+
+.p4 .error {
+	display: none;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #fff;
+	background: rgba(0, 0, 0, .5);
+	z-index: 1;
+}
+.p4 .btn {
+	bottom: 0;
+	animation-play-state: paused;
+	background: url(../img/p4btn.png) no-repeat 0 0 / 100% 100%;
+}

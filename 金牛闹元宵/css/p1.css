@@ -1,0 +1,128 @@
+.p1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(../img/p1bg.png) no-repeat 0 0 / 100% 100%;
+}
+.p1 .loadjdt {
+	position: relative;
+	width: 410px;
+	height: 33px;
+	margin-top: 20px;
+	background: url(../img/jdt.png) no-repeat 0 0 / 100% 100%;
+	
+}
+.p1 .loadtext {
+	font-weight: 600;
+	color: #fff;
+}
+.p1 .loadjdt .loadshiz {
+	position: absolute;
+	top: -35px;
+	left: -40px;
+	/* 340 */
+	width: 104px;
+	height: 113px;
+	background: url(../img/shiz.png) no-repeat 0 0 / 100% 100%;
+	animation: jdtM 5s forwards linear;
+}
+@keyframes jdtM{
+	from{}
+	to{
+		left: 340px;
+	}
+}
+
+.yh1 {
+	position: absolute;
+	width: 211px;
+	height: 182px;
+	transform: scale(0.6);
+	background: url(../img/yh1.png) no-repeat 0 0 / 100% 100%;
+	animation: yhS 1.75s linear infinite;
+}
+.yh1:nth-child(1) {
+	top: 529px;
+	left: -100px;
+}
+.yh1:nth-child(2) {
+	top: 207px;
+	left: 174px;
+}
+.yh2 {
+	position: absolute;
+	width: 95px;
+	height: 84px;
+	transform: scale(0.6);
+	background: url(../img/yh2.png) no-repeat 0 0 / 100% 100%;
+	animation: yhS 1.75s 0.25s linear infinite;
+}
+.yh2:nth-child(3) {
+	top: 382px;
+	left: 123px;
+}
+.yh2:nth-child(4) {
+	bottom: 492px;
+	right: 241px;
+}
+.yh3 {
+	position: absolute;
+	width: 161px;
+	height: 165px;
+	opacity: 0;
+	transform: scale(0.6);
+	background: url(../img/yh2.png) no-repeat 0 0 / 100% 100%;
+	animation: yhS 1.75s 0.5s linear infinite;
+}
+.yh3:nth-child(5){
+	top: 243px;
+	right: 92px;
+}
+.yh3:nth-child(6){
+	bottom: 419px;
+	left: 182px;
+}
+
+@keyframes yhS {
+	0% {
+		
+	}
+	80% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1);
+	}
+	
+}
+
+.bz1 {
+	position: absolute;
+	bottom: 239px;
+	left: 260px;
+	width: 140px;
+	height: 113px;
+	transform: scale(0.8);
+	background: url(../img/bz1.png) no-repeat 0 0 / 100% 100%;
+	animation: bzSc 1s alternate linear infinite;
+}
+.bz2 {
+	position: absolute;
+	bottom: 198px;
+	right: 239px;
+	width: 106px;
+	height: 174px;
+	transform: scale(0.8);
+	background: url(../img/bz2.png) no-repeat 0 0 / 100% 100%;
+	animation: bzSc 1s alternate linear infinite;
+}
+
+@keyframes bzSc{
+	from{}
+	to{
+		transform: scale(1);
+	}
+}

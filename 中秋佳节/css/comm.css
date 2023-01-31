@@ -1,0 +1,196 @@
+.box {
+	position: relative;
+	width: 750px;
+	height: 1334px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.p3,
+.p32,
+.p5,
+.p51 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.yinyue {
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background: url(../img/yinyue.png) no-repeat 0 0 / 100% 100%;
+	animation: yinyueR 2s linear infinite;
+}
+.btn {
+	width: 183px;
+	height: 82px;
+	position: absolute;
+}
+
+@keyframes yinyueR{
+	from{}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+.blup1 {
+	position: absolute;
+	top: -302px;
+	left: 0;
+	width: 600px;
+	height: 302px;
+	opacity: 0;
+	background: url("../img/ym2-up(r).png") no-repeat 0 0/100% 100%;
+	animation:  blupM 0.5s 0.5s linear forwards;
+}
+.blup2 {
+	position: absolute;
+	top: -192px;
+	left: -1px;
+	width: 101%;
+	height: 191px;
+	opacity: 0;
+	background: url("../img/ym2-up(b).png") no-repeat 0 0/100% 100%;
+	animation:  blupM 0.5s 1s linear forwards;
+}
+.blup3 {
+	position: absolute;
+	top: -192px;
+	right: -4px;
+	width: 558px;
+	height: 192px;
+	opacity: 0;
+	background: url("../img/ym2-up(w).png") no-repeat 0 0/100% 100%;
+	animation:  blupM 0.5s 1.5s linear forwards;
+}
+@keyframes blupM {
+	0% {
+		
+	}
+	100%{
+		top: 0;
+		opacity: 1;
+	}
+}
+.bldown1 {
+	position: absolute;
+	bottom: -192px;
+	left: 0;
+	width: 100%;
+	height: 564px;
+	opacity: 0;
+	background: url("../img/ym2-dowm(r).png") no-repeat 0 0/100% 100%;
+	animation: bldownM .5s .5s linear forwards;
+}
+.bldown2 {
+	position: absolute;
+	bottom: -192px;
+	left: 0;
+	width: 101%;
+	height: 564px;
+	opacity: 0;
+	background: url("../img/ym2-dowm(w).png") no-repeat 0 0/100% 100%;
+	animation: bldownM .5s 1s linear forwards;
+}
+.bldown3 {
+	position: absolute;
+	bottom: -192px;
+	left: -22px;
+	width: 100%;
+	height: 788px;
+	opacity: 0;
+	background: url("../img/ym2-dowm(p).png") no-repeat 0 0/100% 100%;
+	animation: bldown3M .5s 1.5s linear forwards;
+}
+@keyframes bldownM {
+	0% {
+		
+	}
+	100%{
+		bottom: 0;
+		opacity: 1;
+	}
+}
+@keyframes bldown3M {
+	0% {
+		
+	}
+	100%{
+		bottom: -16px;
+		opacity: 1;
+	}
+}
+.dl1 {
+	position: absolute;
+	top: 0;
+	right: 118px;
+	width: 103px;
+	height: 236px;
+	transform: rotate(-10deg);
+	background: url(../img/ym2-dl1.png) no-repeat 0 0 / 100% 100%;
+	transform-origin: 50px 17px;
+	animation: dlR 1.5s linear infinite alternate;
+}
+.dl2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 124px;
+	height: 340px;
+	transform: rotate(-15deg);
+	background: url(../img/ym2-dl2.png) no-repeat 0 0 / 100% 100%;
+	transform-origin: 65px 18px;
+	animation: dlR 1.5s linear infinite alternate;
+}
+@keyframes dlR {
+	0% {
+		
+	}
+	100% {
+		transform: rotate(10deg);
+	}
+}
+.mbbox {
+	position: absolute;
+	top: 380px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 634px;
+	height: 634px;
+	overflow: hidden;
+}
+.mb1 {
+	position: absolute;
+	bottom: 0;
+	right: -656px;
+	width: 656px;
+	height: 64px;
+	background: url(../img/幕布2.png) no-repeat 0 0/100% 100%;
+	animation: mb1M 1s 0.5s linear forwards ;
+}
+.mb2 {
+	position: absolute;
+	top: 0;
+	left: -656px;
+	width: 656px;
+	height: 64px;
+	background: url(../img/幕布1.png) no-repeat 0 0/100% 100%;
+	animation: mb2M 1s 0.5s linear forwards ;
+}
+@keyframes mb1M {
+	0%{}
+	100% {
+		right: -12px;
+	}
+}
+@keyframes mb2M {
+	0%{}
+	100% {
+		left: -12px;
+	}
+}
+

@@ -1,0 +1,129 @@
+
+.ym1{
+	/* display: none; */
+	width: 100%;
+	height: 100%;
+	background: url(../img/ym1_bg.png);
+}
+.loading1{
+    width: 560px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 48%;
+    left: 12%;
+    border-radius: 40px;
+}
+.loading1 div{
+	width: 550px;
+    height: 70px;
+    background-color: #ff6551;
+    position: absolute;
+    border-radius: 40px;
+    top: 6%;
+    left: 0.9%;
+    border: 5px solid;
+}
+.loading1 div>span{
+	width: 527px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    border-radius: 40px;
+    top: 8%;
+    left: 1%;
+    border: 5px solid black;
+}
+.loading span>span{
+	width: 517px;
+    height: 40px;
+    background-color: #3af495;
+    position: absolute;
+    border-radius: 40px;
+    left: 0%;
+}
+.loading1 span>span>span{
+    width: 100%;
+    height: 40px;
+    background-color: #3af495;
+    position: absolute;
+    border-radius: 40px;
+    left: 0%;
+}
+.ym1-text{
+	position: absolute;
+    font-size: 40px;
+    color: #632b70;
+    font-weight: 700;
+    top: 49.1%;
+    left: 45%;
+}
+.loading-text{
+	font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 41%;
+    left: 31%;
+    color: #632b70;
+}
+.dian{
+	font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 41%;
+    left: 57%;
+    color: #632b70;
+}
+.ym1 p:nth-child(1){
+	font-size: 100px;
+    font-weight: bold;
+    color: yellow;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(176,123,168,.5);
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    text-align: center;
+    border-radius: 50%;
+}
+.ym1 p:nth-child(2){
+	font-size: 100px;
+    font-weight: bold;
+    color: yellow;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(179,200,184,.5);
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    text-align: center;
+    border-radius: 50%;
+}
+.ym1 p:nth-child(3){	
+	font-size: 100px;
+    font-weight: bold;
+    color: yellow;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(69,183,202,.5);
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    text-align: center;
+    border-radius: 50%;
+    }
+.ym1 p:nth-child(4){
+	font-size: 100px;
+    font-weight: bold;
+    color: yellow;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(176,180,127,.5);
+    position: absolute;
+    top: 28%;
+    left: 70%;
+    text-align: center;
+    border-radius: 50%;
+}
+.ym1 p:nth-child(1){}
